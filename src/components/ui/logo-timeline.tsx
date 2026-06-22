@@ -118,7 +118,7 @@ export function LogoTimeline({
     { label: "Kubernetes", icon: "kubernetes" as LogoIconType, animationDelay: 0, animationDuration: 30, row: 6 },
     { label: "AWS", icon: "aws" as LogoIconType, animationDelay: 0, animationDuration: 25, row: 6 },
     { label: "Azure", icon: "azure" as LogoIconType, animationDelay: 0, animationDuration: 28, row: 6 },
-    { label: "Vercel", icon: "vercel" as LogoIconType, animationDelay: 0, animationDuration: 22, row: 6 },
+    { label: "ASP.NET", icon: "server" as LogoIconType, animationDelay: 0, animationDuration: 22, row: 6 },
   ];
 
   const toolItems: LogoItem[] = [
@@ -130,7 +130,7 @@ export function LogoTimeline({
     { label: "Jira", icon: "jira" as LogoIconType, animationDelay: 0, animationDuration: 26, row: 2 },
     { label: "Slack", icon: "slack" as LogoIconType, animationDelay: 0, animationDuration: 21, row: 2 },
     { label: "Docker", icon: "docker" as LogoIconType, animationDelay: 0, animationDuration: 24, row: 3 },
-    { label: "Vercel", icon: "vercel" as LogoIconType, animationDelay: 0, animationDuration: 27, row: 3 },
+    { label: "ASP.NET", icon: "server" as LogoIconType, animationDelay: 0, animationDuration: 27, row: 3 },
     { label: "Netlify", icon: "netlify" as LogoIconType, animationDelay: 0, animationDuration: 20, row: 4 },
     { label: "MetaMask", icon: "paypal" as LogoIconType, animationDelay: 0, animationDuration: 29, row: 4 },
   ];
