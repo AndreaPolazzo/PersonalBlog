@@ -26,7 +26,6 @@ import { ArgentLoopInfiniteSlider } from "@/components/ui/argent-loop-infinite-s
 import TeamShowcase from "@/components/ui/team-showcase";
 import { CertificateShowcase } from "@/components/ui/certificate-marquee";
 import { GitHubShowcase } from "@/components/ui/github-showcase";
-import KaggleShowcase from "@/components/ui/kaggle-showcase";
 import { WakaTimeShowcase } from "@/components/ui/wakatime-showcase";
 import { ShowcaseStack } from "@/components/ui/showcase-stack";
 
@@ -637,9 +636,6 @@ export default function AboutSection() {
                         <ShowcaseStack>
                             <div className="w-full">
                                 <GitHubShowcase />
-                            </div>
-                            <div className="w-full">
-                                <KaggleShowcase />
                             </div>
                             <div className="w-full">
                                 <WakaTimeShowcase />

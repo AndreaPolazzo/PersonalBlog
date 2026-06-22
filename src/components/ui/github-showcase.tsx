@@ -25,56 +25,48 @@ import { motion, AnimatePresence, useInView, animate } from 'framer-motion';
 import { useIsInStack } from './showcase-stack';
 import { useLenis } from 'lenis/react';
 
-const GITHUB_USER = "Arfazrll";
+const GITHUB_USER = "AndreaPolazzo";
 
 const PINNED_REPOS = [
   {
-    name: "POLABDC",
-    desc: "Pondok Labu Dental Care (SaaS) powered by AI. Built with Typescript, Next.js, Express, Prisma, Supabase, and Google Gemini AI.",
-    stars: 8,
-    forks: 14,
+    name: "ricicloapp",
+    desc: "Web app to help users sort and recycle waste correctly, with quick lookup of disposal categories.",
+    stars: 0,
+    forks: 0,
     lang: "TypeScript",
-    url: "https://github.com/Arfazrll/POLABDC"
+    url: "https://github.com/AndreaPolazzo/ricicloapp"
   },
   {
-    name: "RAG-DocsInsight-Engine",
-    desc: "Retrieval Augmented Generation (RAG) engine for intelligent document analysis. Integrating LLM, embeddings, and vector database to extract insights.",
-    stars: 9,
-    forks: 7,
+    name: "focustype",
+    desc: "Minimal typing speed and focus trainer built for clean, distraction-free practice sessions.",
+    stars: 0,
+    forks: 0,
     lang: "TypeScript",
-    url: "https://github.com/Arfazrll/RAG-DocsInsight-Engine"
+    url: "https://github.com/AndreaPolazzo/focustype"
   },
   {
-    name: "PreProsesingAI",
-    desc: "A comprehensive collection of Machine Learning and Deep Learning implementations showcasing various algorithms and techniques.",
-    stars: 8,
-    forks: 5,
-    lang: "Jupyter",
-    url: "https://github.com/Arfazrll/PreProsesingAI"
-  },
-  {
-    name: "Digilibzx",
-    desc: "Modern Full-Stack Digital Library System built with Java Spring Boot and TypeScript Next.js. Features AI-powered book summarization.",
-    stars: 11,
-    forks: 2,
+    name: "palette-generator",
+    desc: "Tool for generating and exporting harmonious color palettes for web and UI design.",
+    stars: 0,
+    forks: 0,
     lang: "TypeScript",
-    url: "https://github.com/Arfazrll/Digilibzx"
+    url: "https://github.com/AndreaPolazzo/palette-generator"
   },
   {
-    name: "Swarm-Agent-Orchestrator",
-    desc: "Autonomous multi-agent content orchestration system for high-performance blog drafting and research. Powered by OpenAI Swarm.",
-    stars: 10,
-    forks: 5,
-    lang: "Vue",
-    url: "https://github.com/Arfazrll/Swarm-Agent-Orchestrator"
+    name: "orologio-fullscreen",
+    desc: "Simple fullscreen clock app with a clean, distraction-free interface.",
+    stars: 0,
+    forks: 0,
+    lang: "TypeScript",
+    url: "https://github.com/AndreaPolazzo/orologio-fullscreen"
   },
   {
-    name: "CreditRisk_Analysis",
-    desc: "Credit Risk Analysis to predict loan defaults using business metrics like approval rate, default capture rate, and precision to optimize risk.",
-    stars: 3,
-    forks: 5,
-    lang: "Jupyter",
-    url: "https://github.com/Arfazrll/CreditRisk_Analysis"
+    name: "devdashboard",
+    desc: "Personal dashboard for tracking dev tools, links, and daily workflow at a glance.",
+    stars: 0,
+    forks: 0,
+    lang: "TypeScript",
+    url: "https://github.com/AndreaPolazzo/devdashboard"
   }
 ];
 

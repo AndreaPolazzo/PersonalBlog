@@ -32,27 +32,26 @@ const signature = Alex_Brush({
 
 export const metadata: Metadata = {
     title: {
-        default: 'Arfazrll | AI & Software Engineer',
+        default: 'Andrea Polazzo | Web & App Developer',
         template: '%s | Portfolio',
     },
-    description: 'A passionate developer building digital experiences that inspire. Explore my projects, skills, and professional journey.',
+    description: 'Web and app developer focused on building small, useful tools and clean, fast interfaces. Explore my projects, skills, and professional journey.',
     keywords: ['developer', 'portfolio', 'web development', 'full stack', 'react', 'nextjs'],
-    authors: [{ name: 'Your Name' }],
-    creator: 'Your Name',
-    metadataBase: new URL('https://your-domain.com'),
+    authors: [{ name: 'Andrea Polazzo' }],
+    creator: 'Andrea Polazzo',
+    metadataBase: new URL('https://andreapolazzo.com'),
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://your-domain.com',
-        title: 'Arfazrll | AI & Software Engineer',
-        description: 'A passionate developer building digital experiences that inspire.',
+        url: 'https://andreapolazzo.com',
+        title: 'Andrea Polazzo | Web & App Developer',
+        description: 'Web and app developer focused on building small, useful tools and clean, fast interfaces.',
         siteName: 'Portfolio',
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Arfazrll | AI & Software Engineer',
-        description: 'A passionate developer building digital experiences that inspire.',
-        creator: '@yourusername',
+        title: 'Andrea Polazzo | Web & App Developer',
+        description: 'Web and app developer focused on building small, useful tools and clean, fast interfaces.',
     },
     robots: {
         index: true,
