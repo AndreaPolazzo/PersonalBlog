@@ -7,8 +7,8 @@ import {
   FaDocker, FaAws, FaBrain
 } from "react-icons/fa";
 import {
-  SiVite, SiTypescript, SiTailwindcss, SiNextdotjs, 
-  SiFlask, SiJavascript, SiVercel
+  SiVite, SiTypescript, SiTailwindcss, SiNextdotjs,
+  SiFlask, SiJavascript, SiDotnet
 } from "react-icons/si";
 import { portfolioData } from "@/data/portfolio";
 
@@ -31,7 +31,7 @@ const iconConfigs = [
   { Icon: FaDocker, color: "#2496ED" },
   { Icon: FaAws, color: "#FF9900" },
   { Icon: SiJavascript, color: "#F7DF1E" },
-  { Icon: SiVercel, color: "#000000", darkColor: "#ffffff" },
+  { Icon: SiDotnet, color: "#512BD4" },
   { Icon: FaBrain, color: "#FF69B4" },
   { Icon: null, img: fallbackUrls[0] },
   { Icon: null, img: fallbackUrls[1] },
