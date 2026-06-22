@@ -7,7 +7,6 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useIsMobile } from "@/hooks/useIsMobile";
 
 import { Sparkles, Mail, ArrowRight, ArrowDown } from 'lucide-react';
 import { LoadingScreen } from '@/components/layout';
@@ -22,14 +21,6 @@ if (typeof window !== 'undefined') {
 
 const Footer = dynamic(() => import("@/components/layout/Footer").then(mod => mod.Footer), {
     ssr: false
-});
-
-const Hyperspeed = dynamic(() => import('@/components/ui/Hyperspeed'), { ssr: false });
-const { hyperspeedPresets } = require('@/components/ui/Hyperspeed');
-
-const Scene3D = dynamic(() => import('@/components/three/Scene3D').then(mod => ({ default: mod.Scene3D })), {
-    ssr: false,
-    loading: () => null
 });
 
 const AboutSection = dynamic(() => import("@/components/sections/AboutSection"), {
